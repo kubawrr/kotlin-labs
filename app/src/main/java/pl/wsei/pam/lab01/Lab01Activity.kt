@@ -19,8 +19,8 @@ class Lab01Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        mLayout = findViewById(R.id.main)
-
+        mLayout = findViewById(R.id.lab01)
+    // test
         mTitle = TextView(this)
         mTitle.text = buildString {
             append("Laboratorium 1")
