@@ -18,7 +18,7 @@ class Lab01Activity : AppCompatActivity() {
     private var mButtons: MutableList<Button> = mutableListOf()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_lab01)
         mLayout = findViewById(R.id.lab01)
     // test
         mTitle = TextView(this)
@@ -180,7 +180,6 @@ class Lab01Activity : AppCompatActivity() {
     // np. dla parametrów a = 2 i b = 3
     // 2 + 3 = 5
     private fun task12(a: UInt, b: UInt): String {
-        return ""
         return "$a + $b = ${a + b}"
     }
 
