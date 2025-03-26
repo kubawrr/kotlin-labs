@@ -18,8 +18,8 @@ class Lab01Activity : AppCompatActivity() {
     private var mButtons: MutableList<Button> = mutableListOf()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lab01)
-        mLayout = findViewById(R.id.lab01)
+        setContentView(R.layout.activity_main)
+        mLayout = findViewById(R.id.main)
     // test
         mTitle = TextView(this)
         mTitle.text = buildString {

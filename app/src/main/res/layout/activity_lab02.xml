@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/favorites_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="3">
+
+    <Button
+        android:id="@+id/main_6_6_board"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:width="0dp"
+        android:pointerIcon="context_menu"
+        android:text="@string/_6_x_6"
+        android:tag="6x6"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_cruelty_free_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp" />
+
+    <Button
+        android:id="@+id/main_4_4_board"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:width="0dp"
+        android:pointerIcon="context_menu"
+        android:text="@string/_4_x_4"
+        android:tag="4x4"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_cruelty_free_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_4_3_board"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:width="0dp"
+        android:pointerIcon="context_menu"
+        android:text="@string/_4_x_3"
+        android:tag="4x3"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_cruelty_free_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp" />
+
+    <Button
+        android:id="@+id/main_3_2_board"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:width="0dp"
+        android:pointerIcon="context_menu"
+        android:text="@string/_3_x_2"
+        android:tag="3x2"
+        android:textSize="34sp"
+        app:icon="@drawable/baseline_cruelty_free_24"
+        app:iconGravity="textTop"
+        app:iconSize="48dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</GridLayout>
