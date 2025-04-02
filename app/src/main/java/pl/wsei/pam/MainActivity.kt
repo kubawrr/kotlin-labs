@@ -11,7 +11,6 @@ import androidx.core.view.WindowInsetsCompat
 import pl.wsei.pam.lab01.Lab01Activity
 import pl.wsei.pam.lab01.R
 import pl.wsei.pam.lab02.Lab02Activity
-import pl.wsei.pam.lab03.Lab03Activity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

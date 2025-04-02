@@ -7,5 +7,4 @@
     android:useDefaultMargins="true"
     android:columnCount="3">
 
-
 </GridLayout>
